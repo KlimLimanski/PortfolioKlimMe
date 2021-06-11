@@ -79,3 +79,18 @@ li {
     transform: scale(1.09);
     filter: grayscale(0);
 }
+.social {
+    border: 5px solid midnightblue;
+    border-radius: 10px;
+    filter: opacity(1);
+    
+    transform: scale(1);
+    transition: all 2s linear;
+}
+.social:hover {
+    border: 5px solid lightblue;
+    border-radius: 15px;
+    filter: opacity(0.9);
+    
+    transform: scale(1.09);
+}
