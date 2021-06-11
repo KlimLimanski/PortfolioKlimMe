@@ -94,3 +94,6 @@ li {
     
     transform: scale(1.09);
 }
+li {
+text-align: center;
+}
